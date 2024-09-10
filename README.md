@@ -1,6 +1,6 @@
 # LA ROPA ESTA A LA MODA👕
 
-Este proyecto se trata de hacer una tienda de ropa online personalizado y fácil de usar👌
+Este proyecto se trata de  una tienda de ropa online personalizado y fácil de usar👌
 
 ## Integrantes:
 - Sofia Colman 
