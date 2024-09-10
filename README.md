@@ -3,7 +3,7 @@
 Este proyecto se trata de  una tienda de ropa online personalizado y fácil de usar👌
 
 ## Integrantes:
-- Sofia Colman 
-- Ana Martinez 
-- Diego Silupu
+- Sofia Ines Colman 
+- Ana Clara Martinez 
+- Diego Fabricio Silupu
 
