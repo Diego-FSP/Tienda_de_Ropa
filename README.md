@@ -7,3 +7,8 @@ Este proyecto se trata de  una tienda de ropa online personalizado y fácil de u
 - Ana Clara Martinez 
 - Diego Fabricio Silupu
 
+### Codigos a usar:
+- HTML
+- CSS
+- Mysql
+- C#
