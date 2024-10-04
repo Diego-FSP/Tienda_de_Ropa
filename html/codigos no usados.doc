@@ -1,25 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #fa5421;
-    font-family: sans-serif
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-}
-main {
-    position: relative;
-    z-index: 2;
-    background-color: #3d3b3b;
-}
-.product{
-    z-index: 2;
-}
+<video muted autoplay loop>
+                <source src="promo.mp4">
+            </video>
 
 header h1 {
     margin: 0;
@@ -38,8 +19,7 @@ nav ul li {
 }
 
 nav ul li a {
-    background-image: "";
-    color: hwb(0 93% 1%);
+    color: hwb(0 99% 1%);
     text-decoration: none;
 }
 
@@ -78,25 +58,7 @@ footer {
     text-align: center;
 }
 
-.presentacion {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-.fondo {
-    
-    z-index: 0;
+background-image: url("fondo-marino.jpg");
+    background-repeat: no-repeat;
     background-position: center;
-    position: absolute relative;
-    top: 0;
-    left: 0;
-    width: max-content;
-    height: max-content;
-    object-fit: cover;
-    filter: contrast(150%);
-    filter: blur(200%);
-}
-
-  
-  
+    background-attachment: fixed;
