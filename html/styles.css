@@ -38,9 +38,9 @@ footer {
 ul {
     position: center;
     top: 50%;
-    left: relative;
+    left: center;
     transform: translate(relative, 0%);
-    display: flex;
+    display: center;
     li {
       list-style: none;
       a {

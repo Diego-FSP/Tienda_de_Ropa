@@ -62,3 +62,32 @@ background-image: url("fondo-marino.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    background-image: "";
+    color: hwb(0 93% 1%);
+    text-decoration: none;
+}
