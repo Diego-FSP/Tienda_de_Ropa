@@ -9,7 +9,8 @@
     url("fonts/buscar.svg#buscar") format("svg");
   font-weight: normal;
   font-style: normal;
-
+  z-index: 2;
+  position:relative;
 }
 
 [data-icon]:before {
@@ -19,10 +20,12 @@
   font-weight: normal !important;
   font-variant: normal !important;
   text-transform: none !important;
-  speak: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  z-index: 2;
+  position:relative;
 }
 
 [class^="icon-"]:before,
@@ -36,8 +39,22 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  z-index: 2;
+  position:relative;
 }
 
 .icon-buscar:before {
   content: "\61";
+}
+.fondo {
+    
+  z-index: 0;
+  position: absolute ;
+  top: 0;
+  left: 0;
+  width: max-content;
+  height: max-content;
+  object-fit: cover;
+  filter: contrast(150%);
+  filter: blur(200%);
 }

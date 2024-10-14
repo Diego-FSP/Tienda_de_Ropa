@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=}, initial-scale=1.0">
     <title>Novedades</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,9 +26,57 @@
             </nav>
         </div>
     </header>
-    Primavera
-    <img src="rp.avif" alt="100%">
+    <script src="menu.js"></script>
     
+    
+        <div class="Producto1">
+            <h2>Deportivo</h2>
+            <img src="ciclistas-novedad.jpg"  width="550px" height="400px" alt="2%">
+            </p>
+            <span id="dots"></span>
+            <span id="ReadMore" style="display:none;">
+                <h2>Ingredientes</h2>
+                <li>Diferentes cortes de carne de res (costillas, chorizos, morcillas, vacío, entraña, matambre, etc.)
+                </li>
+                <li>Sal gruesa
+                </li>
+                <li>Opcional: chimichurri (salsa tradicional argentina)
+                </li>
+                <li>Opcional: pan y ensaladas para acompañar
+                </li>
+        
+                <h2>Preparacion</h2>
+                <p>Preparar el fuego: Enciende el carbón o la leña en la parrilla y espera hasta que las brasas estén al rojo vivo. Debes esperar hasta que no haya llamas para evitar que la carne se queme. <br>
+              Salar la carne: Sazona generosamente los cortes de carne con sal gruesa por ambos lados. La sal ayudará a formar una deliciosa costra en la superficie de la carne mientras se cocina. <br>
+              Colocar la carne en la parrilla: Coloca los cortes de carne en la parrilla caliente. Los cortes más gruesos deben ir en el centro de la parrilla, mientras que los más delgados se colocan en los bordes para controlar mejor la cocción. <br>
+              Cocción de la carne: El tiempo de cocción varía según el grosor de la carne y el nivel de cocción deseado. Para un término medio, cocina las carnes unos 5-7 minutos por cada lado. Puedes ajustar el tiempo según tus preferencias personales. <br>
+              Descanso de la carne: Una vez cocida, retira la carne de la parrilla y déjala reposar durante unos minutos. Esto permitirá que los jugos se redistribuyan dentro de la carne, manteniéndola jugosa y sabrosa. <br>
+              Servir: Corta la carne en porciones y sirve caliente. Puedes acompañar el asado con chimichurri, una salsa a base de ajo, perejil, vinagre, aceite y especias. Además, sirve pan y ensaladas frescas como acompañamiento. <br>
+              </p>
+        
+            </span>
+          <button class="myBtn" onclick="myFunction()" id="myBtn"> +  Leer Mas</button>
+          
+          
+        </div>
+    
+    <script src="main.js">
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Leer más";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "- Leer menos";
+                moreText.style.display = "inline";
+            }
+          }
+    </script>
              
 </body>
 </html>
