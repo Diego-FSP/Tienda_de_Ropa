@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="menu.js"></script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=}, initial-scale=1.0">
-    <title>Novedades</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Niñ@s</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="producto.css">
+    <style>
+        #d1, #d2, #d3, #d4, #d5{
+           display: none;     
+            }
+    </style>
 </head>
 <body>
         <header>
@@ -24,6 +31,97 @@
                 </nav>
             </div>
         </header>
-        vestidos , remeras,pantalones,Camisetas,polleras,ropa de deportesetc
+        <section>
+            <article>
+                <div class="imgd">
+                    <img src="img/V1.jpg" alt="Vestido">
+                    <p><span>10% off</span></p>
+                </div>
+
+                <h3>Vestido Dorado</h3>
+                <p class="precio">$ <span>2332</span></p>
+
+                <button id="button" onclick="mostrar('d1')">Info</button>
+                <div id="d1">
+                    <p>Un dorado precioso y envidiable, hecho para compromisos, fistas o causar envidia</p>
+                    <button id="button" onclick="ocultar('d1')">Ocultar</button>
+                </div>
+
+            </article>
+            
+            <article>
+                <div class="imgd">
+                    <img src="img/R1.jpg" alt="remeras">
+                    <p><span>10% off</span></p>
+                </div>
+                    <h3>Remeras pack 2x1</h3>
+                    <p class="precio">$ <span>2332</span></p>
+                
+                    <button id="button" onclick="mostrar('d2')">Info</button>
+                <div id="d2">
+                    <p>Uc</p>
+                    <button id="button" onclick="ocultar('d2')">Ocultar</button>
+                </div>
+            </article>
+
+            <article>
+                <div class="imgd">
+                    <img src="img/P1.png" alt="P">
+                    <p><span>10% off</span></p>
+                </div>
+                    <h3>Pantalon colorido</h3>
+                    <p class="precio">$ <span>23242</span></p>
+                
+                    <button id="button" onclick="mostrar('d3')">Info</button>
+                <div id="d3">
+                    <p>Un doenvidia</p>
+                    <button id="button" onclick="ocultar('d3')">Ocultar</button>
+                </div>
+
+            </article>
+
+            <article>
+                <div class="imgd">
+                    <img src="img/C1.png" alt="P">
+                    <p><span>0% off</span></p>
+                </div>
+                    <h3>Camisa nike lost</h3>
+                    <p class="precio">$ <span>242</span></p>
+                
+                    <button id="button" onclick="mostrar('d4')">Info</button>
+                <div id="d4">
+                    <p>Un dorado prbtas o causar envidia</p>
+                    <button id="button" onclick="ocultar('d4')">Ocultar</button>
+                </div>
+            </article>
+
+            <article>
+                <div class="imgd">
+                    <img src="img/D1.jpg" alt="P">
+                    <p><span>90% off</span></p>
+                </div>
+                    <h3>Camiseta generica</h3>
+                    <p class="precio">$ <span>2</span></p>
+                
+                    <button id="button" onclick="mostrar('d5')">Info</button>
+                <div id="d5">
+                    <p>cioso y envidiable, hecho para compromisos, fistas o causar envidia</p>
+                    <button id="button" onclick="ocultar('d5')">Ocultar</button>
+                </div>
+            </article>
+            
+            <article>
+                <div class="imgd">
+                    <img src="img/D1.jpg" alt="P">
+                    <p><span>90% off</span></p>
+                </div>
+                <div class="d">
+                    <h3>Camiseta generica</h3>
+                    <p class="precio">$ <span>2</span></p>
+                </div>
+            </article>
+            
+        </section>
+        remeras,pantalones,Camisetas,polleras,ropa de deportesetc
     </body>
     </html>

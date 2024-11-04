@@ -1,5 +1,6 @@
 header {
  
+  font-family: sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +10,8 @@ header {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 header.h1{
+  
+  font-family: sans-serif;
   text-align: center;
   position: center;
 z-index: 2;
