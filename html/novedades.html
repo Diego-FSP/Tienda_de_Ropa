@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="menu.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=}, initial-scale=1.0">
     <title>Novedades</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="producto.css">
+    <style>
+        #d1, #d2, #d3, #d4, #d5,#d6,#d7,#d8,#d9{
+           display: none;     
+            }
+    </style>
 </head>
 <body>
     <header>
@@ -26,57 +33,156 @@
             </nav>
         </div>
     </header>
-    <script src="menu.js"></script>
     
     
-        <div class="Producto1">
-            <h2>Deportivo</h2>
-            <img src="ciclistas-novedad.jpg"  width="550px" height="400px" alt="2%">
-            </p>
-            <span id="dots"></span>
-            <span id="ReadMore" style="display:none;">
-                <h2>Ingredientes</h2>
-                <li>Diferentes cortes de carne de res (costillas, chorizos, morcillas, vacío, entraña, matambre, etc.)
-                </li>
-                <li>Sal gruesa
-                </li>
-                <li>Opcional: chimichurri (salsa tradicional argentina)
-                </li>
-                <li>Opcional: pan y ensaladas para acompañar
-                </li>
+    <section>
+        <article>
+            <div class="imgd">
+                <img src="img/H1.jpg" alt="Halloween">
+                <p><span>10% off</span></p>
+            </div>
+
+            <h3>Pack de disfraces 3x1</h3>
+            <p class="precio">$ <span>2332</span></p>
+
+            <button id="button" onclick="mostrar('d1')">Info</button>
+            <div id="d1">
+                <p>Un dorado precioso y envidiable, hecho para compromisos, fistas o causar envidia</p>
+                <button id="button" onclick="ocultar('d1')">Ocultar</button>
+            </div>
+
+        </article>
         
-                <h2>Preparacion</h2>
-                <p>Preparar el fuego: Enciende el carbón o la leña en la parrilla y espera hasta que las brasas estén al rojo vivo. Debes esperar hasta que no haya llamas para evitar que la carne se queme. <br>
-              Salar la carne: Sazona generosamente los cortes de carne con sal gruesa por ambos lados. La sal ayudará a formar una deliciosa costra en la superficie de la carne mientras se cocina. <br>
-              Colocar la carne en la parrilla: Coloca los cortes de carne en la parrilla caliente. Los cortes más gruesos deben ir en el centro de la parrilla, mientras que los más delgados se colocan en los bordes para controlar mejor la cocción. <br>
-              Cocción de la carne: El tiempo de cocción varía según el grosor de la carne y el nivel de cocción deseado. Para un término medio, cocina las carnes unos 5-7 minutos por cada lado. Puedes ajustar el tiempo según tus preferencias personales. <br>
-              Descanso de la carne: Una vez cocida, retira la carne de la parrilla y déjala reposar durante unos minutos. Esto permitirá que los jugos se redistribuyan dentro de la carne, manteniéndola jugosa y sabrosa. <br>
-              Servir: Corta la carne en porciones y sirve caliente. Puedes acompañar el asado con chimichurri, una salsa a base de ajo, perejil, vinagre, aceite y especias. Además, sirve pan y ensaladas frescas como acompañamiento. <br>
-              </p>
+        <article>
+            <div class="imgd">
+                <img src="img/H2.jpg" alt="Difraz">
+                <p><span>10% off</span></p>
+            </div>
+                <h3>Difraz para niño de 3  años</h3>
+                <p class="precio">$ <span>5243</span></p>
+            
+                <button id="button" onclick="mostrar('d2')">Info</button>
+            <div id="d2">
+                <p>Uc</p>
+                <button id="button" onclick="ocultar('d2')">Ocultar</button>
+            </div>
+        </article>
+
+        <article>
+            <div class="imgd">
+                <img src="img/H5.jpg" alt="P">
+                <p><span>10% off</span></p>
+            </div>
+                <h3>niños</h3>
+                <p class="precio">$ <span>23242</span></p>
+            
+                <button id="button" onclick="mostrar('d3')">Info</button>
+            <div id="d3">
+                <p>para niños </p>
+                <button id="button" onclick="ocultar('d3')">Ocultar</button>
+            </div>
+
+        </article>
+
+        <article>
+            <div class="imgd">
+                <img src="img/H3.jpg" alt="P">
+                <p><span>0% off</span></p>
+            </div>
+                <h3>Mujer</h3>
+                <p class="precio">$ <span>24254</span></p>
+            
+                <button id="button" onclick="mostrar('d4')">Info</button>
+            <div id="d4">
+                <p>Difraces para mujeres</p>
+                <button id="button" onclick="ocultar('d4')">Ocultar</button>
+            </div>
+        </article>
+
+        <article>
+            <div class="imgd">
+                <img src="img/H4.jpg" alt="P">
+                <p><span>90% off</span></p>
+            </div>
+                <h3>Difraz de esqueleto</h3>
+                <p class="precio">$ <span>2</span></p>
+            
+                <button id="button" onclick="mostrar('d5')">Info</button>
+            <div id="d5">
+                <p>esta hecho con ajustada al cuerpo</p>
+                <button id="button" onclick="ocultar('d5')">Ocultar</button>
+            </div>
+        </article>
         
-            </span>
-          <button class="myBtn" onclick="myFunction()" id="myBtn"> +  Leer Mas</button>
-          
-          
-        </div>
-    
-    <script src="main.js">
-        function myFunction() {
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("more");
-            var btnText = document.getElementById("myBtn");
-          
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Leer más";
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "- Leer menos";
-                moreText.style.display = "inline";
-            }
-          }
-    </script>
+        <article>
+            <div class="imgd">
+                <img src="img/H6.jpg" alt="P">
+                <p><span>90% off</span></p>
+            </div>
+            <div class="d">
+                <h3>Camita edgy</h3>
+                <p class="precio">$ <span>2</span></p>
+            </div>
+
+            <button id="button" onclick="mostrar('d6')">Info</button>
+            <div id="d6">
+                <p>Algo generica</p>
+                <button id="button" onclick="ocultar('d6')">Ocultar</button>
+            </div>
+        </article>
+        
+        <article>
+            <div class="imgd">
+                <img src="img/H7.jpg" alt="P">
+                <p><span>90% off</span></p>
+            </div>
+            <div class="d">
+                <h3>Camita edgy</h3>
+                <p class="precio">$ <span>2</span></p>
+            </div>
+
+            <button id="button" onclick="mostrar('d7')">Info</button>
+            <div id="d7">
+                <p>Algo generica</p>
+                <button id="button" onclick="ocultar('d7')">Ocultar</button>
+            </div>
+        </article>
+
+        <article>
+            <div class="imgd">
+                <img src="img/H8.jpg" alt="P">
+                <p><span>90% off</span></p>
+            </div>
+            <div class="d">
+                <h3>Camita edgy</h3>
+                <p class="precio">$ <span>2</span></p>
+            </div>
+
+            <button id="button" onclick="mostrar('d8')">Info</button>
+            <div id="d8">
+                <p>Algo generica</p>
+                <button id="button" onclick="ocultar('d8')">Ocultar</button>
+            </div>
+        </article>
+
+        <article>
+            <div class="imgd">
+                <img src="img/H9.jpg" alt="P">
+                <p><span>90% off</span></p>
+            </div>
+            <div class="d">
+                <h3>Camita edgy</h3>
+                <p class="precio">$ <span>2</span></p>
+            </div>
+
+            <button id="button" onclick="mostrar('d9')">Info</button>
+            <div id="d9">
+                <p>Algo generica</p>
+                <button id="button" onclick="ocultar('d9')">Ocultar</button>
+            </div>
+        </article>
+
+    </section>
              
 </body>
 </html>
