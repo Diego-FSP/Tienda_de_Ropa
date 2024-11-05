@@ -10,15 +10,10 @@ body {
 main {
     position: relative;
     z-index: 2;
-    background-color: #3d3b3b;
 }
 .product{
     z-index: 2;
 }
-
-
-
-
 
 .hero {
     background-color: #f4f4f4;
@@ -49,7 +44,7 @@ main {
 }
 
 footer {
-    background-color: #2c2b33;;
+    background-color: #2c2b33;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -62,14 +57,14 @@ footer {
 }
 
 .fondo {
-    
-    z-index: 0;
+    z-index: -1;
     background-position: center;
-    position: absolute relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: max-content;
     height: max-content;
+    max-width: 100%;
     object-fit: cover;
     filter: contrast(150%);
     filter: blur(200%);
