@@ -113,3 +113,17 @@ header h2 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
+
+<div class="anuncio">
+            <ul>
+                <li>
+                    <img src="img/A1.webp" alt="">
+                </li>
+                <li>
+                    <img src="img/A2.webp" alt="">
+                </li>
+                <li>
+                    <img src="img/A3.webp" alt="">
+                </li>
+            </ul>
+        </div>
